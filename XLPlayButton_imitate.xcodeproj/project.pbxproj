@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		541E16E91F4094AB00334230 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E16E81F4094AB00334230 /* main.m */; };
+		541E16EC1F4094AB00334230 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E16EB1F4094AB00334230 /* AppDelegate.m */; };
+		541E16EF1F4094AB00334230 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E16EE1F4094AB00334230 /* ViewController.m */; };
+		541E16F21F4094AB00334230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541E16F01F4094AB00334230 /* Main.storyboard */; };
+		541E16F41F4094AB00334230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541E16F31F4094AB00334230 /* Assets.xcassets */; };
+		541E16F71F4094AB00334230 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541E16F51F4094AB00334230 /* LaunchScreen.storyboard */; };
+		541E17021F4094AB00334230 /* XLPlayButton_imitateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E17011F4094AB00334230 /* XLPlayButton_imitateTests.m */; };
+		541E170D1F4094AB00334230 /* XLPlayButton_imitateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E170C1F4094AB00334230 /* XLPlayButton_imitateUITests.m */; };
+		541E17281F40955E00334230 /* YouKuPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E17271F40955E00334230 /* YouKuPlayButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		541E16FE1F4094AB00334230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 541E16DC1F4094AB00334230 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541E16E31F4094AB00334230;
+			remoteInfo = XLPlayButton_imitate;
+		};
+		541E17091F4094AB00334230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 541E16DC1F4094AB00334230 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541E16E31F4094AB00334230;
+			remoteInfo = XLPlayButton_imitate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		541E16E41F4094AB00334230 /* XLPlayButton_imitate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLPlayButton_imitate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		541E16E81F4094AB00334230 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		541E16EA1F4094AB00334230 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		541E16EB1F4094AB00334230 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		541E16ED1F4094AB00334230 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		541E16EE1F4094AB00334230 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		541E16F11F4094AB00334230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		541E16F31F4094AB00334230 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		541E16F61F4094AB00334230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		541E16F81F4094AB00334230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541E16FD1F4094AB00334230 /* XLPlayButton_imitateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPlayButton_imitateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		541E17011F4094AB00334230 /* XLPlayButton_imitateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPlayButton_imitateTests.m; sourceTree = "<group>"; };
+		541E17031F4094AB00334230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541E17081F4094AB00334230 /* XLPlayButton_imitateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPlayButton_imitateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		541E170C1F4094AB00334230 /* XLPlayButton_imitateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPlayButton_imitateUITests.m; sourceTree = "<group>"; };
+		541E170E1F4094AB00334230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541E17261F40955E00334230 /* YouKuPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouKuPlayButton.h; sourceTree = "<group>"; };
+		541E17271F40955E00334230 /* YouKuPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouKuPlayButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		541E16E11F4094AB00334230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541E16FA1F4094AB00334230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541E17051F4094AB00334230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		541E16DB1F4094AB00334230 = {
+			isa = PBXGroup;
+			children = (
+				541E16E61F4094AB00334230 /* XLPlayButton_imitate */,
+				541E17001F4094AB00334230 /* XLPlayButton_imitateTests */,
+				541E170B1F4094AB00334230 /* XLPlayButton_imitateUITests */,
+				541E16E51F4094AB00334230 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		541E16E51F4094AB00334230 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				541E16E41F4094AB00334230 /* XLPlayButton_imitate.app */,
+				541E16FD1F4094AB00334230 /* XLPlayButton_imitateTests.xctest */,
+				541E17081F4094AB00334230 /* XLPlayButton_imitateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		541E16E61F4094AB00334230 /* XLPlayButton_imitate */ = {
+			isa = PBXGroup;
+			children = (
+				541E17241F40952400334230 /* IQiYiPlayButton */,
+				541E17251F40952400334230 /* YouKuPlayButton */,
+				541E16EA1F4094AB00334230 /* AppDelegate.h */,
+				541E16EB1F4094AB00334230 /* AppDelegate.m */,
+				541E16ED1F4094AB00334230 /* ViewController.h */,
+				541E16EE1F4094AB00334230 /* ViewController.m */,
+				541E16F01F4094AB00334230 /* Main.storyboard */,
+				541E16F31F4094AB00334230 /* Assets.xcassets */,
+				541E16F51F4094AB00334230 /* LaunchScreen.storyboard */,
+				541E16F81F4094AB00334230 /* Info.plist */,
+				541E16E71F4094AB00334230 /* Supporting Files */,
+			);
+			path = XLPlayButton_imitate;
+			sourceTree = "<group>";
+		};
+		541E16E71F4094AB00334230 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				541E16E81F4094AB00334230 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		541E17001F4094AB00334230 /* XLPlayButton_imitateTests */ = {
+			isa = PBXGroup;
+			children = (
+				541E17011F4094AB00334230 /* XLPlayButton_imitateTests.m */,
+				541E17031F4094AB00334230 /* Info.plist */,
+			);
+			path = XLPlayButton_imitateTests;
+			sourceTree = "<group>";
+		};
+		541E170B1F4094AB00334230 /* XLPlayButton_imitateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				541E170C1F4094AB00334230 /* XLPlayButton_imitateUITests.m */,
+				541E170E1F4094AB00334230 /* Info.plist */,
+			);
+			path = XLPlayButton_imitateUITests;
+			sourceTree = "<group>";
+		};
+		541E17241F40952400334230 /* IQiYiPlayButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IQiYiPlayButton;
+			sourceTree = "<group>";
+		};
+		541E17251F40952400334230 /* YouKuPlayButton */ = {
+			isa = PBXGroup;
+			children = (
+				541E17261F40955E00334230 /* YouKuPlayButton.h */,
+				541E17271F40955E00334230 /* YouKuPlayButton.m */,
+			);
+			path = YouKuPlayButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		541E16E31F4094AB00334230 /* XLPlayButton_imitate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541E17111F4094AB00334230 /* Build configuration list for PBXNativeTarget "XLPlayButton_imitate" */;
+			buildPhases = (
+				541E16E01F4094AB00334230 /* Sources */,
+				541E16E11F4094AB00334230 /* Frameworks */,
+				541E16E21F4094AB00334230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLPlayButton_imitate;
+			productName = XLPlayButton_imitate;
+			productReference = 541E16E41F4094AB00334230 /* XLPlayButton_imitate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		541E16FC1F4094AB00334230 /* XLPlayButton_imitateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541E17141F4094AB00334230 /* Build configuration list for PBXNativeTarget "XLPlayButton_imitateTests" */;
+			buildPhases = (
+				541E16F91F4094AB00334230 /* Sources */,
+				541E16FA1F4094AB00334230 /* Frameworks */,
+				541E16FB1F4094AB00334230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				541E16FF1F4094AB00334230 /* PBXTargetDependency */,
+			);
+			name = XLPlayButton_imitateTests;
+			productName = XLPlayButton_imitateTests;
+			productReference = 541E16FD1F4094AB00334230 /* XLPlayButton_imitateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		541E17071F4094AB00334230 /* XLPlayButton_imitateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541E17171F4094AB00334230 /* Build configuration list for PBXNativeTarget "XLPlayButton_imitateUITests" */;
+			buildPhases = (
+				541E17041F4094AB00334230 /* Sources */,
+				541E17051F4094AB00334230 /* Frameworks */,
+				541E17061F4094AB00334230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				541E170A1F4094AB00334230 /* PBXTargetDependency */,
+			);
+			name = XLPlayButton_imitateUITests;
+			productName = XLPlayButton_imitateUITests;
+			productReference = 541E17081F4094AB00334230 /* XLPlayButton_imitateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		541E16DC1F4094AB00334230 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = liqian;
+				TargetAttributes = {
+					541E16E31F4094AB00334230 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = TP8QMMPN7V;
+						ProvisioningStyle = Automatic;
+					};
+					541E16FC1F4094AB00334230 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = TP8QMMPN7V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 541E16E31F4094AB00334230;
+					};
+					541E17071F4094AB00334230 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = TP8QMMPN7V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 541E16E31F4094AB00334230;
+					};
+				};
+			};
+			buildConfigurationList = 541E16DF1F4094AB00334230 /* Build configuration list for PBXProject "XLPlayButton_imitate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 541E16DB1F4094AB00334230;
+			productRefGroup = 541E16E51F4094AB00334230 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				541E16E31F4094AB00334230 /* XLPlayButton_imitate */,
+				541E16FC1F4094AB00334230 /* XLPlayButton_imitateTests */,
+				541E17071F4094AB00334230 /* XLPlayButton_imitateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		541E16E21F4094AB00334230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541E16F71F4094AB00334230 /* LaunchScreen.storyboard in Resources */,
+				541E16F41F4094AB00334230 /* Assets.xcassets in Resources */,
+				541E16F21F4094AB00334230 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541E16FB1F4094AB00334230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541E17061F4094AB00334230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		541E16E01F4094AB00334230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541E16EF1F4094AB00334230 /* ViewController.m in Sources */,
+				541E16EC1F4094AB00334230 /* AppDelegate.m in Sources */,
+				541E16E91F4094AB00334230 /* main.m in Sources */,
+				541E17281F40955E00334230 /* YouKuPlayButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541E16F91F4094AB00334230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541E17021F4094AB00334230 /* XLPlayButton_imitateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541E17041F4094AB00334230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541E170D1F4094AB00334230 /* XLPlayButton_imitateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		541E16FF1F4094AB00334230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 541E16E31F4094AB00334230 /* XLPlayButton_imitate */;
+			targetProxy = 541E16FE1F4094AB00334230 /* PBXContainerItemProxy */;
+		};
+		541E170A1F4094AB00334230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 541E16E31F4094AB00334230 /* XLPlayButton_imitate */;
+			targetProxy = 541E17091F4094AB00334230 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		541E16F01F4094AB00334230 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				541E16F11F4094AB00334230 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		541E16F51F4094AB00334230 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				541E16F61F4094AB00334230 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		541E170F1F4094AB00334230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		541E17101F4094AB00334230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		541E17121F4094AB00334230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TP8QMMPN7V;
+				INFOPLIST_FILE = XLPlayButton_imitate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Default.com.XLPlayButton-imitate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		541E17131F4094AB00334230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TP8QMMPN7V;
+				INFOPLIST_FILE = XLPlayButton_imitate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Default.com.XLPlayButton-imitate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		541E17151F4094AB00334230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TP8QMMPN7V;
+				INFOPLIST_FILE = XLPlayButton_imitateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Default.com.XLPlayButton-imitateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLPlayButton_imitate.app/XLPlayButton_imitate";
+			};
+			name = Debug;
+		};
+		541E17161F4094AB00334230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TP8QMMPN7V;
+				INFOPLIST_FILE = XLPlayButton_imitateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Default.com.XLPlayButton-imitateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLPlayButton_imitate.app/XLPlayButton_imitate";
+			};
+			name = Release;
+		};
+		541E17181F4094AB00334230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TP8QMMPN7V;
+				INFOPLIST_FILE = XLPlayButton_imitateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Default.com.XLPlayButton-imitateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLPlayButton_imitate;
+			};
+			name = Debug;
+		};
+		541E17191F4094AB00334230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TP8QMMPN7V;
+				INFOPLIST_FILE = XLPlayButton_imitateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Default.com.XLPlayButton-imitateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLPlayButton_imitate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		541E16DF1F4094AB00334230 /* Build configuration list for PBXProject "XLPlayButton_imitate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541E170F1F4094AB00334230 /* Debug */,
+				541E17101F4094AB00334230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		541E17111F4094AB00334230 /* Build configuration list for PBXNativeTarget "XLPlayButton_imitate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541E17121F4094AB00334230 /* Debug */,
+				541E17131F4094AB00334230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		541E17141F4094AB00334230 /* Build configuration list for PBXNativeTarget "XLPlayButton_imitateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541E17151F4094AB00334230 /* Debug */,
+				541E17161F4094AB00334230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		541E17171F4094AB00334230 /* Build configuration list for PBXNativeTarget "XLPlayButton_imitateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541E17181F4094AB00334230 /* Debug */,
+				541E17191F4094AB00334230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 541E16DC1F4094AB00334230 /* Project object */;
+}
